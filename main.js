@@ -1,6 +1,6 @@
-import "https://github.com/Daniel-Son002/js-weather/blob/main/style.css"
-import { getWeather } from "https://github.com/Daniel-Son002/js-weather/blob/main/weather.js"
-import { ICON_MAP } from "https://github.com/Daniel-Son002/js-weather/blob/main/iconMap.js"
+import "./style.css"
+import { getWeather } from "./weather"
+import { ICON_MAP } from "./iconMap"
 
 navigator.geolocation.getCurrentPosition(positionSuccess, positionError)
 
